@@ -6,15 +6,21 @@
 //
 
 import SwiftUI
-
+import CoreData
 
 struct ContentView: View {
+    @Environment(\.managedObjectContext) var moc
     let students = [Student(name: "Harry Potter"), Student(name: "Ginger Lashun")]
     var body: some View {
-        List(students, id: \.self) { student in
-            Text(student.name)
-            
+        VStack {
+            Button("Save") {
+                if self.moc.hasChanges {
+                    try? self.moc.save()
+                }
+               
+            }
         }
+        
        
     }
 }
