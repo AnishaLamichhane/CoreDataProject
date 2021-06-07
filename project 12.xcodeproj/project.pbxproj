@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		AF52DCD9266DF8A700B2422D /* HashableProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF52DCD8266DF8A700B2422D /* HashableProtocol.swift */; };
 		AF6288E5266B7FC20067E177 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF6288E4266B7FC20067E177 /* AppDelegate.swift */; };
 		AF6288E7266B7FC20067E177 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF6288E6266B7FC20067E177 /* SceneDelegate.swift */; };
 		AF6288E9266B7FC20067E177 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF6288E8266B7FC20067E177 /* ContentView.swift */; };
@@ -17,6 +18,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		AF52DCD8266DF8A700B2422D /* HashableProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HashableProtocol.swift; sourceTree = "<group>"; };
 		AF6288E1266B7FC20067E177 /* project 12.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "project 12.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		AF6288E4266B7FC20067E177 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		AF6288E6266B7FC20067E177 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -61,6 +63,7 @@
 				AF6288E4266B7FC20067E177 /* AppDelegate.swift */,
 				AF6288E6266B7FC20067E177 /* SceneDelegate.swift */,
 				AF6288E8266B7FC20067E177 /* ContentView.swift */,
+				AF52DCD8266DF8A700B2422D /* HashableProtocol.swift */,
 				AF6288ED266B7FC50067E177 /* Assets.xcassets */,
 				AF6288F2266B7FC50067E177 /* LaunchScreen.storyboard */,
 				AF6288F5266B7FC50067E177 /* Info.plist */,
@@ -150,6 +153,7 @@
 			files = (
 				AF6288EC266B7FC20067E177 /* project_12.xcdatamodeld in Sources */,
 				AF6288E5266B7FC20067E177 /* AppDelegate.swift in Sources */,
+				AF52DCD9266DF8A700B2422D /* HashableProtocol.swift in Sources */,
 				AF6288E7266B7FC20067E177 /* SceneDelegate.swift in Sources */,
 				AF6288E9266B7FC20067E177 /* ContentView.swift in Sources */,
 			);
