@@ -24,7 +24,7 @@ struct ContentView: View {
         NamedView("Ensuring Core Data objects are unique using constraints", view: Constraintss()),
         NamedView("Fetching data using NSPredicate", view: nsPredicate()),
         NamedView("Dynamically filtering @FetchRequest with SwiftUI", view: DynamicFiltering()),
-        
+        NamedView("One-to-many relationships with @FetchRequest and SwiftUI", view: lastTurorial())
   ]
 
     var body: some View {
