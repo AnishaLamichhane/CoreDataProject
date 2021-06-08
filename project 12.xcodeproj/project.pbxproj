@@ -13,6 +13,9 @@
 		AF52DCE5266E43B000B2422D /* project_12.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = AF52DCE3266E43B000B2422D /* project_12.xcdatamodeld */; };
 		AF52DCE7266E4E5000B2422D /* Constraintss.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF52DCE6266E4E5000B2422D /* Constraintss.swift */; };
 		AF52DCE9266E4F7200B2422D /* nsPredicate.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF52DCE8266E4F7200B2422D /* nsPredicate.swift */; };
+		AF52DCEC266F56F700B2422D /* Singer+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF52DCEA266F56F700B2422D /* Singer+CoreDataClass.swift */; };
+		AF52DCED266F56F700B2422D /* Singer+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF52DCEB266F56F700B2422D /* Singer+CoreDataProperties.swift */; };
+		AF52DCEF266F7DF500B2422D /* DynamicFiltering.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF52DCEE266F7DF500B2422D /* DynamicFiltering.swift */; };
 		AF6288E5266B7FC20067E177 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF6288E4266B7FC20067E177 /* AppDelegate.swift */; };
 		AF6288E7266B7FC20067E177 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF6288E6266B7FC20067E177 /* SceneDelegate.swift */; };
 		AF6288E9266B7FC20067E177 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF6288E8266B7FC20067E177 /* ContentView.swift */; };
@@ -28,6 +31,9 @@
 		AF52DCE4266E43B000B2422D /* project_12.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = project_12.xcdatamodel; sourceTree = "<group>"; };
 		AF52DCE6266E4E5000B2422D /* Constraintss.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Constraintss.swift; sourceTree = "<group>"; };
 		AF52DCE8266E4F7200B2422D /* nsPredicate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = nsPredicate.swift; sourceTree = "<group>"; };
+		AF52DCEA266F56F700B2422D /* Singer+CoreDataClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Singer+CoreDataClass.swift"; sourceTree = SOURCE_ROOT; };
+		AF52DCEB266F56F700B2422D /* Singer+CoreDataProperties.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Singer+CoreDataProperties.swift"; sourceTree = SOURCE_ROOT; };
+		AF52DCEE266F7DF500B2422D /* DynamicFiltering.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DynamicFiltering.swift; sourceTree = "<group>"; };
 		AF6288E1266B7FC20067E177 /* project 12.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "project 12.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		AF6288E4266B7FC20067E177 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		AF6288E6266B7FC20067E177 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -68,6 +74,9 @@
 		AF6288E3266B7FC20067E177 /* project 12 */ = {
 			isa = PBXGroup;
 			children = (
+				AF52DCEA266F56F700B2422D /* Singer+CoreDataClass.swift */,
+				AF52DCEB266F56F700B2422D /* Singer+CoreDataProperties.swift */,
+				AF52DCEE266F7DF500B2422D /* DynamicFiltering.swift */,
 				AF52DCDA266DFF9600B2422D /* Movie+CoreDataClass.swift */,
 				AF52DCDB266DFF9600B2422D /* Movie+CoreDataProperties.swift */,
 				AF6288E4266B7FC20067E177 /* AppDelegate.swift */,
@@ -167,9 +176,12 @@
 				AF52DCE5266E43B000B2422D /* project_12.xcdatamodeld in Sources */,
 				AF6288E5266B7FC20067E177 /* AppDelegate.swift in Sources */,
 				AF52DCD9266DF8A700B2422D /* HashableProtocol.swift in Sources */,
+				AF52DCED266F56F700B2422D /* Singer+CoreDataProperties.swift in Sources */,
 				AF52DCE9266E4F7200B2422D /* nsPredicate.swift in Sources */,
+				AF52DCEF266F7DF500B2422D /* DynamicFiltering.swift in Sources */,
 				AF6288E7266B7FC20067E177 /* SceneDelegate.swift in Sources */,
 				AF52DCDC266DFF9600B2422D /* Movie+CoreDataClass.swift in Sources */,
+				AF52DCEC266F56F700B2422D /* Singer+CoreDataClass.swift in Sources */,
 				AF52DCDD266DFF9600B2422D /* Movie+CoreDataProperties.swift in Sources */,
 				AF6288E9266B7FC20067E177 /* ContentView.swift in Sources */,
 			);

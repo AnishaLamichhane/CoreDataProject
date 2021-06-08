@@ -26,7 +26,7 @@ struct nsPredicate: View {
                 
                 let ship2 = Ship(context: self.moc)
                 ship2.name = "Titanic"
-                ship2.universe = "Star Trek"
+                ship2.universe = "Star Wars"
                 
                 let ship3 = Ship(context: self.moc)
                 ship3.name = "Milennium forcan"
@@ -34,7 +34,7 @@ struct nsPredicate: View {
                 
                 
                 let ship4 = Ship(context: self.moc)
-                ship4.name = "Milennium forcan"
+                ship4.name = "forcan"
                 ship4.universe = "Star Wars"
                 
                 try? self.moc.save()
