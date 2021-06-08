@@ -8,34 +8,40 @@
 import SwiftUI
 import CoreData
 
+struct NamedView {
+    var name: String
+    var view: AnyView
+
+    init<V>(_ name: String, view: V) where V: View {
+        self.name = name
+        self.view = AnyView(view)
+    }
+}
+
 struct ContentView: View {
-    @Environment(\.managedObjectContext) var moc
-    @FetchRequest(entity: Wizard.entity(), sortDescriptors: []) var wizards: FetchedResults<Wizard>
-    
+    private let drawings: [NamedView] = [
+        NamedView("Why does self work for ForEach?", view: HashableProtocol()),
+        NamedView("Ensuring Core Data objects are unique using constraints", view: Constraintss())
+       
+        
+   ]
+
     var body: some View {
-        VStack {
-            List(wizards, id: \.self) { wizard in
-                Text(wizard.name ?? "Unknown")
-                
-            }
-            Button("Add") {
-                let wizard = Wizard(context: self.moc)
-                wizard.name = "Harry Potter"
-            }
-            
-            Button("Save") {
-                do{
-                    try self.moc.save()
-                } catch {
-                    print(error.localizedDescription)
+        NavigationView {
+            List(0..<drawings.count) { i in
+                NavigationLink(destination: self.drawings[i].view) {
+                    Text(self.drawings[i].name)
                 }
             }
-            
-        }
+            .navigationBarTitle("Drawing")
+            .foregroundColor(.green)
+            .font(.headline)
+           
         }
         
-       
     }
+}
+
 
 
 struct ContentView_Previews: PreviewProvider {
