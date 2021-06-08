@@ -22,7 +22,9 @@ struct ContentView: View {
     private let drawings: [NamedView] = [
         NamedView("Why does self work for ForEach?", view: HashableProtocol()),
         NamedView("Ensuring Core Data objects are unique using constraints", view: Constraintss()),
-        NamedView("Fetching data using NSPredicate", view: nsPredicate())
+        NamedView("Fetching data using NSPredicate", view: nsPredicate()),
+        NamedView("Dynamically filtering @FetchRequest with SwiftUI", view: DynamicFiltering()),
+        
   ]
 
     var body: some View {
